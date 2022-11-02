@@ -1,4 +1,4 @@
-package Tasks.Tasks4;
+package Tasks.Tasks_4;
 
 public class PasswordValidation {
     public static void main(String[] args) {
@@ -10,7 +10,8 @@ public class PasswordValidation {
         5. password should at least contain a digit
         if all requirements above are met, the method returns true, otherwise returns false
          */
-        String password = "Bayarmaa8!";
+        String password = "bayarmaa88!";
+        //
         boolean length = password.length()>=6;
         boolean lower = password.matches(".*[a-z].*");
         boolean upper = password.matches(".*[A-Z].*");

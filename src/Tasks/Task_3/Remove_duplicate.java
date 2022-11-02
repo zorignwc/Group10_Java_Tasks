@@ -7,7 +7,7 @@ public class Remove_duplicate {
      */
     public static void main(String[] args) {
 
-        String str = new String("AAABBBCCC");
+        String str = new String("AAABBBCCC11##");
         String result = "";
 
         for(int i = 0; i<str.length(); i++){

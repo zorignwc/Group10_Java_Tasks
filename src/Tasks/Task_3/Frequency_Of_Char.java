@@ -6,11 +6,15 @@ public class Frequency_Of_Char {
         Write a return method that find the frequency of characters
         Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
          */
-        String str3 = "AAABBCDD";
+        String str3 = "AAABBBCDDD##!!11";
         String result3 = "";
+        //Nested for Loop
+        //Inner loop
         for(int i = 0; i<str3.length(); i++){
             int num = 0;
+            //outer loop
             for(int j = 0; j<str3.length(); j++){
+                //if statement
                 if(str3.charAt(i)==str3.charAt(j)){
                     num++;
 
